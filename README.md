@@ -1,2 +1,2 @@
 # Digital-Portfolio-Website-V1
-My digital portfolio website code. Second created website in total and created over 2 month period.
+My digital portfolio website code for sharing my skills, contact details, and projects online. Second created website in total and was created over 2 month period. Made as single page website, with four distinctive sections, multiple ways to navigate website, dark/light mode, links to LinkedIn, GitHub, and email, links for downloading files, place to diaplay pdf cv, and image viewer. Coded using HTML, CSS, and JavaScript.
