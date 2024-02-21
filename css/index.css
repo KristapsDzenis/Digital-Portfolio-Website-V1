@@ -1,0 +1,516 @@
+/* File containing all main contents of top section */
+
+/* top section container */
+#middle
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 85%;
+        height: 775px;
+        top: 2%;
+        left: 7.5%;
+        order: 2;
+        background: none;
+        opacity: 1;
+        transition: opacity 1s;
+    }
+/* Top position for footer for page flow */
+#footer
+    {
+        top: 4100px;
+    }
+
+/* main page contents */
+#main_text /* text container */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 900px;
+        height: 400px;
+        top: 18%;
+        left: 8%;
+    }
+
+#middle_nav /* top section navigation bar container */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 475px;
+        height: 40px;
+        bottom: 16%;
+        left: 5%;
+    }
+
+/* button containers for top section navigation bar  */
+#m_nav_btn
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 19%;
+        height: 100%;
+        top: 0;
+        left: 0;
+    }
+
+#m_nav_btn_2
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 19%;
+        height: 100%;
+        top: 0;
+        left: 20%;
+    }
+
+#m_nav_btn_3
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 19%;
+        height: 100%;
+        top: 0;
+        left: 40%;
+    }
+
+.middle_btn   /* class for buttons customization */
+    {
+        background: #a21212;
+        border: solid;
+        border-color: #620a0a;
+        border-width: 0.2vw;
+    }
+
+.middle_btn:hover /* mouse hover effect for buttons */
+    {
+        cursor: pointer;
+        background: #620a0a;
+        transition:  1s;
+    }
+
+/* all icons and mouse over effects for them in top section navigation bar */
+#middle_gitHub
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 6.5%;
+        height: 69%;
+        top: 15%;
+        right: 19%;
+    }
+
+#middle_gitHub:hover
+    {
+        width: 8.2%;
+        height: 90%;
+        top: 5%;
+        right: 18%;
+        transition: 0.2s
+    }
+
+#middle_linkedIn
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 7.5%;
+        height: 80%;
+        top: 10%;
+        right: 10%;
+    }
+
+#middle_linkedIn:hover
+    {
+        width: 10.3%;
+        height: 105%;
+        top: -2%;
+        right: 8.5%;
+        transition: 0.2s
+    }
+
+#middle_Gmail
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 9.5%;
+        height: 75%;
+        top: 11.5%;
+        right: 0;
+    }
+
+#middle_Gmail:hover
+{
+        width: 12%;
+        height: 94%;
+        top: 2%;
+        right: -1%;
+        transition: 0.2s
+}
+
+#main_img
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        height: 525px;
+        top: 10%;
+        right: 5%;
+    }
+
+/* styling overrides for screen over 3840px (4K) */
+@media only screen and (min-width: 3839px){
+
+#footer
+    {
+        top: 3675px;
+    }
+
+#middle
+    {
+        width: 60%;
+        left: 20%;
+    }
+
+#pg_title
+    {
+        top: 12%;
+        left: 18%;
+    }
+
+#main_text
+    {
+        width: 1300px;
+        height: 300px;
+        top: 25%;
+        left: 10%;
+    }
+
+#main_img
+    {
+        top: 18%;
+        right: 10%;
+    }
+
+#middle_nav
+    {
+        bottom: 20%;
+        left: 10%;
+    }
+
+#m_nav_btn_3
+    {
+        width: 23%;
+    }
+}
+
+/* styling overrides for screen over 2560px (QHD) */
+@media only screen and (min-width: 2560px) and (max-width: 3838px){
+
+#footer
+    {
+        top: 3600px;
+    }
+
+#pg_title
+    {
+        left: 16%;
+    }
+
+#main_text
+    {
+        width: 1100px;
+        height: 400px;
+        top: 25%;
+        left: 10%;
+    }
+
+#main_img
+    {
+        top: 19%;
+        right: 10%;
+    }
+
+#middle_nav
+    {
+        bottom: 20%;
+        left: 10%;
+    }
+
+#m_nav_btn_3
+    {
+        width: 23%;
+    }
+}
+
+/* styling overrides for screen under 2560px (QHD) */
+@media only screen and (max-width: 2560px){
+
+#footer
+    {
+        top: 3600px;
+    }
+
+#pg_title
+    {
+        left: 16%;
+    }
+
+#main_text
+    {
+        width: 1100px;
+        height: 400px;
+        top: 25%;
+        left: 10%;
+    }
+
+#main_img
+    {
+        top: 19%;
+        right: 10%;
+    }
+
+#middle_nav
+    {
+        bottom: 20%;
+        left: 10%;
+    }
+
+#m_nav_btn_3
+    {
+        width: 23%;
+    }
+}
+
+/* styling overrides for screen under 2225px */
+@media only screen and (max-width: 2225px){
+
+#footer
+    {
+        top: 3550px;
+    }
+
+#pg_title
+    {
+        left: 8%;
+    }
+
+#main_text
+    {
+        width: 900px;
+        height: 500px;
+        top: 20%;
+        left: 5%;
+    }
+
+#main_img
+    {
+        top: 18%;
+        right: 5%;
+    }
+
+#middle_nav
+    {
+        bottom: 17%;
+        left: 5%;
+    }
+}
+
+@media only screen and (max-width: 1920px) {
+
+    #footer {
+        top: 3500px;
+    }
+
+}
+
+/* styling overrides for screen under 1850px */
+@media only screen and (max-width: 1850px){
+
+#pg_title
+    {
+        left: 2%;
+    }
+
+#main_text
+    {
+        left: -2%;
+        top: 17%;
+        width: 775px;
+        height: 450px;
+    }
+
+#middle_nav
+    {
+        bottom: 19%;
+        left: 0%;
+    }
+
+#main_img
+    {
+        top: 16%;
+        right: -2%;
+    }
+}
+
+/* styling overrides for screen under 1366px */
+@media only screen and (max-width: 1366px){
+
+#pg_title
+    {
+        top: 8%;
+    }
+
+#main_text
+    {
+        left: -2%;
+        top: 15%;
+        width: 575px;
+        height: 525px;
+    }
+
+#middle_nav
+    {
+        bottom: 15%;
+    }
+
+#main_img
+    {
+        width: 380px;
+        height: 520px;
+        top: 16%;
+        right: -2%;
+    }
+}
+
+/* styling overrides for screen under 1100px */
+@media only screen and (max-width: 1100px){
+
+#middle
+    {
+        width: 85%;
+        height: 1275px;
+        left: 7.5%;
+    }
+
+#footer
+    {
+        top: 5000px;
+    }
+
+#main_text
+    {
+        left: 1%;
+        top: 9%;
+        width: 500px;
+        height: 590px;
+    }
+
+#middle_nav
+    {
+        top: 49%;
+        left: 4%;
+    }
+
+#main_img
+    {
+        width: 340px;
+        height: 450px;
+        top: 56%;
+        right: 0;
+    }
+}
+
+/* styling overrides for screen under 620px */
+@media only screen and (max-width: 620px){
+
+#middle
+    {
+        width: 85%;
+        height: 1350px;
+        left: 7.5%;
+    }
+
+#footer
+    {
+        top: 5100px;
+    }
+
+#main_text
+    {
+        width: 400px;
+        height: 730px;
+        top: 7%;
+    }
+
+#middle_nav
+    {
+        top: 52%;
+        left: 0;
+        width: 410px;
+        height: 37px;
+    }
+
+#middle_gitHub
+    {
+        width: 6.5%;
+        height: 72%;
+        top: 15%;
+        right: 21.5%;
+    }
+
+#middle_gitHub:hover
+    {
+        width: 8.2%;
+        height: 90%;
+        top: 5%;
+        right: 20.5%;
+        transition: 0.2s
+    }
+
+#middle_linkedIn
+    {
+        width: 8%;
+        height: 80%;
+        top: 11%;
+        right: 11.5%;
+    }
+
+#middle_linkedIn:hover
+    {
+        width: 11%;
+        height: 100%;
+        top: 0;
+        right: 10%;
+    }
+
+#middle_Gmail
+    {
+        width: 11%;
+    }
+
+#middle_Gmail:hover
+{
+        width: 13%;
+}
+
+.middle_btn
+    {
+        border-width: 0.3vw;
+    }
+
+#main_img
+    {
+        width: 340px;
+        height: 450px;
+        top: 58%;
+        left: 8%;
+    }
+}

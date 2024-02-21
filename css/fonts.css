@@ -1,0 +1,240 @@
+/* file containing fonts and text styling */
+
+/* fonts */
+@font-face
+    {
+        font-family: TitleFont;
+        src: url(../fonts/title_font.ttf);
+    }
+
+@font-face
+    {
+        font-family: NavFont;
+        src: url(../fonts/nav_font.otf);
+    }
+
+@font-face
+    {
+        font-family: TextFont;
+        src: url(../fonts/text_font.ttf);
+    }
+
+/* applies to all white text */
+.all
+    {
+        color: #FFF8D5;
+    }
+
+
+.text /* applies to some secondary text*/
+    {
+        font-family: TextFont;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+        letter-spacing: 0.02vw;
+        text-decoration: none;
+    }
+
+.main_text /* applies to all main text*/
+    {
+        font-family: TextFont;
+        text-align: justify;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        letter-spacing: 0.02vw;
+        text-decoration: none;
+    }
+
+.text_hover:hover /* adds underline for links on mouse over */
+    {
+        text-decoration: underLine;
+    }
+
+
+/* header text */
+/* main website title */
+h1
+    {
+        font-family: TitleFont;
+        margin: 1%;
+        padding: 0;
+        font-size: 56px;
+        opacity: 100%;
+        letter-spacing: 0.00vw;
+    }
+
+h1:hover
+    {
+        color: #620a0a;
+        transition: 0.5s;
+    }
+
+/* class for navigation bar  */
+.navtext
+    {
+        font-family: NavFont;
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        text-decoration: none;
+        letter-spacing: 0.04vw;
+        opacity: 100%;
+    }
+
+.no_deco /* removes underline for links on mouse over */
+    {
+        text-decoration: none;
+    }
+
+.dark_light_symbols /* dark light mode symbol */
+    {
+        margin: 0;
+        padding-left: 10%;
+        font-size: 23px;
+        text-decoration: none;
+        opacity: 100%;
+    }
+
+/* main area text */
+h2 /* sections title */
+    {
+        font-family: TitleFont;
+        margin: 5%;
+        padding: 0;
+        font-size: 42px;
+        letter-spacing: 0.07vw;
+    }
+
+h3 /* project section subheadings */
+    {
+        font-family: TitleFont;
+        margin: 0;
+        padding: 0;
+        font-size: 23px;
+        letter-spacing: 0.03vw;
+    }
+
+.title_color /* red title color */
+    {
+
+        color: #620a0a;
+    }
+
+.text_color_2 /* red text color */
+    {
+
+        color: #a21212;
+    }
+
+.text_color_darkM /* text color for in-text links in skills section */
+    {
+        color: #030000;
+    }
+
+.special_text /* introduction text in top section */
+    {
+        font-family: TitleFont;
+        margin: 0;
+        padding: 0;
+        font-size: 22px;
+        letter-spacing: 0.00vw;
+        color: #a21212;
+    }
+
+.text_hover_2:hover /* underline for in-text links in top section */
+    {
+        text-decoration: underLine;
+        text-decoration-color: #a21212;
+    }
+
+.text_hover_3:hover /* underline for in-text links in skills section */
+    {
+        text-decoration: underLine;
+        text-decoration-color: #030000;
+    }
+
+.btn_text_hover:hover /* buttons mouse over in top section */
+    {
+        color: #030000;
+    }
+
+.image_nav /* class for image viewer buttons */
+    {
+        cursor: pointer;
+        margin: 0;
+        padding-left: 30%;
+        font-size: 35px;
+        text-decoration: none;
+        opacity: 50%;
+        color: #FFF8D5;
+    }
+
+.image_nav:hover /* class for image viewer buttons on mouse over */
+    {
+        opacity: 80%;
+        transition: opacity 0.5s;
+    }
+
+/* footer text */
+.footer_text
+    {
+        font-family: TextFont;
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        letter-spacing: 0.02vw;
+        text-decoration: none;
+    }
+
+/* styling for screen under 1366px */
+@media only screen and (max-width: 1366px){
+
+h1
+    {
+        font-size: 42px;
+    }
+
+.main_text
+    {
+        font-size: 18px;
+        letter-spacing: 0.02vw;
+    }
+
+.special_text
+    {
+        font-size: 17px;
+        letter-spacing: 0.00vw;
+    }
+}
+
+/* styling overrides for screen under 1100px */
+@media only screen and (max-width: 1100px){
+
+.image_nav
+    {
+        padding-left: 30%;
+        font-size: 50px;
+    }
+}
+
+
+/* styling overrides for screen under 615px */
+@media only screen and (max-width: 620px){
+
+.res
+    {
+        font-size: 35px;
+    }
+
+h3
+    {
+        font-size: 22px;
+    }
+
+}
+
+
+
+

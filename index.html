@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="UTF-8">
+    <!-- all links to css and JS -->
+    <link id="style" href="css/frame.css" rel="stylesheet" type="text/css">
+    <link id="style_2" href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link id="style_3" href="css/index.css" rel="stylesheet" type="text/css">
+    <link href="css/images.css" rel="stylesheet" type="text/css">
+    <link id="style_4" href="css/skills.css" rel="stylesheet" type="text/css">
+    <link id="style_5" href="css/my_cv.css" rel="stylesheet" type="text/css">
+    <link id="style_6" href="css/projects.css" rel="stylesheet" type="text/css">
+    <script src="js/script.js" type="text/javaScript"></script>
+    <!-- search engine meta tags -->
+    <meta name="title" content="Digital Portfolio">
+    <meta name="description" content="Lorem ipsum dolor sit orem ipsum dolor sit amet. Est omnis nesciunt
+            a nesciunt iusto qui rerum saepe et ipsa assumenda. Ut saepe internos vel recusandae repudiandae eos doloremque nihil qui
+            asperiores commodi et temporibus veniam. Quo soluta unde aut officiis facilis nam porro soluta in accusamus praesentium.">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="5 days">
+    <meta name="author" content="Kristaps Dzenis">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title and icon for browser tab -->
+    <title>Website name</title>
+    <link href="/images/favicon.ico" rel="icon" type="image/x-icon">
+
+  </head>
+  <body>
+
+    <div id="container"><!-- main container of page, contains everything -->
+
+      <!-- start of header contents -->
+      <div id="header">
+
+        <div id="title"><!-- main title of the website -->
+          <a class="no_deco" href="#middle" target="_self"><h1 class="all">Website Name</h1></a>
+        </div>
+
+        <nav id="navbar" > <!-- navigation bar --->
+          <ul>
+            <li><a target="_self" class="all navtext sep_line" href="#middle">About</a></li>
+            <li><a target="_self" class="all navtext sep_line" href="#middle_2" >Skills</a></li>
+            <li><a target="_self" class="all navtext sep_line" href="#middle_3" >My CV</a></li>
+            <li><a target="_self" class="all navtext " href="#middle_4">Projects</a></li>
+          </ul>
+          <div id="navline"> <!-- underline for navigation bar headings -->
+
+            <div id="home" >
+            </div>
+            <div id="skills">
+            </div>
+            <div id="cv">
+            </div>
+            <div id="projects">
+            </div>
+
+          </div>
+
+        </nav>
+
+        <div id="dark_light_mode"> <!-- dark/light mode UI -->
+
+          <div id="dark_light_symbol"> <!-- symbols -->
+            <p class="all dark_light_symbols">&#9788</p>
+          </div>
+          <div id="dark_light_symbol_2">
+            <p class="all dark_light_symbols">&#9790</p>
+          </div>
+
+          <label class="switch"> <!-- switch -->
+            <input type="checkbox" id="checkbox" onclick="lightmode()" >
+            <span class="slider"></span>
+          </label>
+
+        </div>
+
+        <div id="top_contacts"> <!-- header contacts UI  -->
+
+          <div id="top_contacts_text"> <!-- text -->
+            <p class="all text_color text">Reach Me On:</p>
+          </div>
+
+          <div id="link_0_top"> <!-- linkedin icon -->
+            <a target="_blank" href="Your link here"><img class="contacts_logo_top"
+            src="images/github-2.png" alt="link to  GitHub page"></a>
+          </div>
+
+          <div id="link_1_top"> <!-- linkedin icon -->
+            <a target="_blank" href="Your link here"><img class="contacts_logo_top"
+            src="images/linkedIn.png" alt="link to LinkedIn page"></a>
+          </div>
+
+          <div id="gmail_logo_top"> <!-- gmail icon -->
+            <a href="mailto: Your email here"><img class="contacts_logo_top" src="images/gmail.png"
+             alt="email address to contact"></a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- start of main page contents -->
+      <section id="middle"> <!-- top section of the page -->
+
+        <div id="main_text"> <!-- all text with links -->
+          <p class="all main_text"><span class="special_text">Lorem ipsum dolor sit.</span>orem ipsum dolor sit amet. Est omnis nesciunt
+            a nesciunt iusto qui rerum saepe et ipsa assumenda. Ut saepe internos vel recusandae repudiandae eos doloremque nihil qui
+            asperiores commodi et temporibus veniam. Quo soluta unde aut officiis facilis nam porro soluta in accusamus praesentium.</p>
+          <br>
+          <br>
+          <br>
+          <p class="all main_text">Rem error sunt id atque sequi quo ullam adipisci ex error ducimus. Qui quod perferendis aut soluta consequatur
+            33 impedit placeat <a target="_self" class="no_deco text_hover_2" href="#middle_4"><span class="text_color_2">Projects</span></a> Est distinctio
+            quam et minus atque id veniam odio aut galisum expedita. Sit suscipit doloremque quo enim itaque ea laborum minus.
+            <a target="_self" class="no_deco text_hover_2" href="#middle_3"><span class="text_color_2">my CV</span></a>,
+            <a target="_self" class="no_deco text_hover_2" href="#middle_4"><span class="text_color_2">Projects</span></a>,
+            or <a target="_self" class="no_deco text_hover_2" href="#middle_2"><span class="text_color_2">Skills</span></a> sections of this website.</p>
+          <br>
+          <br>
+          <br>
+          <p class="all main_text">At the moment, <span class="special_text">looking for internship, work placement opportunities in UK or abroad.</span>
+            For more information or how to contact me, check out links below.</p>
+        </div>
+
+        <div id="middle_nav"> <!-- top section navigation bar -->
+
+            <!-- buttons -->
+            <div id="m_nav_btn">
+              <a class="" href="#middle_2" target="_self"><button class="middle_btn all no_deco btn_text_hover">SKILLS</button></a>
+            </div>
+            <div id="m_nav_btn_2">
+              <a class="" href="#middle_3" target="_self"><button class="middle_btn all no_deco btn_text_hover">MY CV</button></a>
+            </div>
+            <div id="m_nav_btn_3">
+              <a class="" href="#middle_4" target="_self"><button class="middle_btn all no_deco btn_text_hover">PROJECTS</button></a>
+            </div>
+
+            <!-- icons -->
+            <div id="middle_gitHub">
+              <a target="_blank" href="Your link here"><img class="contacts_logo_top"
+              src="images/github-2.png" alt="link to GitHub page"></a>
+            </div>
+            <div id="middle_linkedIn">
+              <a target="_blank" href="Your link here"><img class="contacts_logo_top"
+              src="images/linkedIn.png" alt="link to LinkIn page"></a>
+            </div>
+            <div id="middle_Gmail">
+              <a href="mailto: Your email here"><img class="contacts_logo_top" src="images/gmail.png"
+             alt="email address to contact"></a>
+            </div>
+
+        </div>
+
+        <div id="main_img"> <!-- image of top section -->
+          <img  class="fill" src="images/placeholder.png" alt="Photo of ..."/>
+        </div>
+
+      </section>
+
+      <section id="middle_2">  <!-- skills section of the website -->
+
+        <div id="pd_title"> <!-- Skills title -->
+          <h2>My Skills</h2>
+        </div>
+
+        <div id="skills_text"> <!-- text with links  -->
+          <h3>High level languages</h3>
+           <p class="all main_text">Lorem ipsum dolor sit amet. Rem sint atque et culpa magnam sed omnis dolorem. Quo dolorem
+             consequatur est consequatur voluptatem et vitae quod. Sit neque perferendis id rerum voluptatem eos vitae ducimus
+             qui nostrum consequatur a doloremque animi. Sed rerum unde in labore voluptatum hic obcaecati praesentium. Id aperiam nihil
+             id consectetur tempore qui consequatur architecto ut laboriosam galisum sed placeat ipsa. Ut consequatur unde ut quod
+             distinctio et suscipit ipsam qui molestiae culpa. Et voluptatem dolorum vel voluptatem vitae est consectetur sint.
+             Ut optio praesentium.</p>
+          <br>
+          <h3>Web Development</h3>
+          <p class="all main_text">LSed rerum unde in labore voluptatum hic obcaecati praesentium. Id aperiam nihil id consectetur
+            tempore qui consequatur architecto ut laboriosam galisum sed placeat ipsa. <a target="_self" class="no_deco text_hover_3"
+            href="#middle_4"><span class="text_color_darkM">Projects</span></a> Rem sint atque et culpa magnam sed omnis dolorem.</p>
+          <br>
+          <h3>Version Control</h3>
+          <p class="all main_text">HLSed rerum unde in labore voluptatum hic obcaecati praesentium. Id aperiam nihil id consectetur
+            <a target="_blank" class="no_deco text_hover_3" href="Your link here"><span class="text_color_darkM">GitHub</span></a>.</p>
+          <br>
+          <h3>Databases</h3>
+          <p class="all main_text">HLSed rerum unde in labore voluptatum hic obcaecati praesentium. Id aperiam nihil id consectetur.</p>
+          <br>
+          <h3>Computer science</h3>
+          <p class="all main_text">Lorem ipsum dolor sit amet. Rem sint atque et culpa magnam sed omnis dolorem. Quo dolorem
+             consequatur est consequatur voluptatem et vitae quod. Sit neque perferendis id rerum voluptatem eos vitae ducimus
+             qui nostrum consequatur a doloremque animi. Sed rerum unde in labore voluptatum hic obcaecati praesentium. Id aperiam nihil
+             id consectetur tempore qui consequatur architecto ut laboriosam galisum sed placeat ipsa.m</p>
+        </div>
+
+        <div id="skills_img"> <!-- container holding all skills images -->
+
+          <!-- all skills images -->
+          <div id="html_img">
+            <img  class="fill" src="images/html.png" alt="Photo of HTML logo"/>
+          </div>
+          <div id="css_img">
+            <img  class="fill" src="images/css.png" alt="Photo of CSS logo"/>
+          </div>
+          <div id="js_img">
+            <img  class="fill" src="images/JS.png" alt="Photo of JS logo"/>
+          </div>
+          <div id="python_img">
+            <img  class="fill" src="images/python.png" alt="Photo of Python logo"/>
+          </div>
+          <div id="csharp_img">
+            <img  class="fill" src="images/Csharp.png" alt="Photo of C# logo"/>
+          </div>
+          <div id="cplus_img">
+            <img  class="fill" src="images/c++.png" alt="Photo of C++ logo"/>
+          </div>
+          <div id="sql_img">
+            <img  class="fill" src="images/sql.png" alt="Photo of SQL logo"/>
+          </div>
+          <div id="git_img">
+            <img  class="fill" src="images/git.png" alt="Photo of Git logo"/>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section id="middle_3"> <!-- cv section -->
+
+        <div id="pc_title"> <!-- title of cv section -->
+          <h2 class="res title_color">Curriculum Vitae</h2>
+        </div>
+
+        <div id="wrapper"> <!-- container holding viewable cv -->
+
+          <div id="cv_text"> <!-- large resolution text -->
+            <p class="all text"><< Left mouse CliCK to interact with CV >></p>
+          </div>
+
+          <div id="cv_text_mobile"> <!-- small resolution text -->
+            <p class="all text">Download CV (.pdf) here >></p>
+          </div>
+
+          <div id="dl_button"> <!-- download button for small resolution -->
+            <button class="dlbt_color"><a href="files/Curriculum VitaeWEB.pdf" target="_blank">
+              <img  class="dl_size" src="images/download.png" alt=""><img class="liner" src="images/blank.png" alt=""></a></button>
+          </div>
+
+          <!-- cv.pdf for large resolution -->
+          <object data='files/placeholder.pdf' type='application/pdf'></object>
+          <div id="mobile_img">
+
+            <!-- two page cv in .jpg format for small resolution -->
+            <div id="page_1">
+              <img  class="fill" src="images/placeholder.png" alt="Photo of first page of CV"/>
+            </div>
+            <div id="page_2">
+              <img  class="fill" src="images/placeholder.png" alt="Photo of second page of CV"/>
+            </div>
+
+          </div>
+
+          <!-- cv overlay for dark mode large resolution -->
+          <div id="cv_overlay" onclick="off()">
+          </div>
+
+        </div>
+
+      </section>
+
+      <section id="middle_4"> <!-- projects section -->
+
+        <div id="pp_title"> <!-- main title for projects section -->
+          <h2>Projects</h2>
+        </div>
+
+        <div id="sec_title_wrapper"> <!-- subheading with year -->
+
+            <div id="sec_title_pp">
+                <h3 class="">Digital Portfolio Website</h3>
+            </div>
+            <div id="year">
+                <p class="all footer_text">2024</p>
+            </div>
+
+        </div>
+
+        <div id="pp_text"> <!-- text -->
+          <p class="all main_text">Lorem ipsum dolor sit amet. Rem sint atque et culpa magnam sed omnis dolorem. Quo dolorem
+             consequatur est consequatur voluptatem et vitae quod. Sit neque perferendis id rerum voluptatem eos vitae ducimus
+             qui nostrum consequatur a doloremque animi. Sed rerum unde in labore voluptatum hic obcaecati praesentium. Id aperiam nihil
+             id consectetur tempore qui consequatur architecto ut laboriosam galisum sed placeat ipsa. Ut consequatur unde ut quod
+             distinctio et suscipit ipsam qui molestiae culpa.</p>
+           <br>
+          <p class="all main_text">Feel free to download .zip file containing .txt files with source code of this website below!</p>
+        </div>
+
+        <div id="image_container"> <!-- image browser containing all images and buttons -->
+
+            <!-- images -->
+            <div class="pp_image_first">
+              <img  class="fill" src="images/website_img.png" alt="Photo of Digital Portfolio website section"/>
+            </div>
+
+            <div class="pp_image">
+              <img  class="fill" src="images/website_img.png" alt="Photo of Digital Portfolio website section"/>
+            </div>
+
+            <div class="pp_image">
+              <img  class="fill" src="images/website_img_2.png" alt="Photo of Digital Portfolio website section"/>
+            </div>
+
+            <div class="pp_image">
+              <img  class="fill" src="images/website_img_3.png" alt="Photo of Digital Portfolio website section"/>
+            </div>
+
+            <!-- buttons -->
+            <div id="btn_back">
+              <a class="image_nav" onclick="plusSlides(-1)">&#10094</a>
+            </div>
+
+            <div id="btn_forward">
+              <a class="image_nav" onclick="plusSlides(1)">&#10095</a>
+            </div>
+
+        </div>
+
+        <div id="dl_link"> <!-- download link container -->
+
+          <div id="dl_text"> <!-- text -->
+            <p class="all text">Download source code (.zip) here >></p>
+          </div>
+
+          <div id="dl_button_2"> <!-- download button -->
+            <button class="dlbt_color"><a href="files/web_source_code_zip.zip" target="_blank">
+              <img  class="dl_size" src="images/download.png" alt=""><img class="liner" src="images/blank.png" alt=""></a></button>
+          </div>
+
+        </div>
+
+        <div id="dl_link_2"> <!-- download link container -->
+
+          <div id="dl_text_2"> <!-- text -->
+            <p class="all text">Check out GitHub repository here >></p>
+          </div>
+
+          <div id="dl_button_2_2"> <!-- download button -->
+            <button class="dlbt_color"><a href="Your link here" target="_blank">
+              <img  class="dl_size" src="images/web_link.png" alt=""><img class="liner" src="images/blank.png" alt=""></a></button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- start pf footer contents -->
+      <div id="footer">
+
+        <div id="contact"> <!-- footer contacts container -->
+
+          <div id="contact_text"> <!-- text -->
+            <p class="all text">Reach Me On:</p>
+          </div>
+
+          <!-- contacts links -->
+          <div id="linked_logo">
+            <img class="contacts_logo" src="images/linkedIn.png" alt="Image of LinkedIn logo">
+          </div>
+          <div id="link_1">
+            <a  class="all footer_text text_hover" target="_blank" href="Your link here">LinkedIn</a>
+          </div>
+
+          <div id="gmail_logo">
+            <img class="contacts_logo" src="images/gmail.png" alt="Image of Gmail logo">
+          </div>
+
+          <div id="link_2">
+            <a class="all footer_text text_hover" href="mailto: Your email here">Your email here</a>
+          </div>
+
+          <div id="github_logo">
+            <img class="contacts_logo" src="images/github.png" alt="Image of GitHub logo">
+          </div>
+
+          <div id="link_3">
+            <a  class="all footer_text text_hover" target="_blank" href="Your link here">GitHub</a>
+          </div>
+
+        </div>
+
+        <div id="copyright"> <!-- copyright claim -->
+          <p class="all footer_text">&#169; 2024 Kristaps Dzenis Digital Portfolio, All rights reserved. Website designed by Kristaps Dzenis.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
+<!-- end of code -->

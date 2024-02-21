@@ -1,0 +1,925 @@
+/* file holds all styling contents for header and footer */
+/* LIGHT MODE */
+
+html
+    {
+      scroll-behavior: smooth;
+    }
+
+/* main container of page */
+#container
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 4200px;
+        background: #FFF8D5;
+    }
+
+/* header contents */
+#header /* header */
+    {
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100px;
+        left: 0;
+        z-index: 1;
+        background: #030000;
+        opacity: 80%;
+    }
+
+#title /* top main title */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 600px;
+        height: 60px;
+        background: none;
+        left: 1%;
+        top: 20%;
+    }
+
+/* nav bar contents */
+#navbar /* navigation bar */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 400px;
+        height: 55px;
+        background: none;
+        left: 38%;
+        top: 25%;
+    }
+
+#navline /* main underline holder */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 337px;
+        height: 6px;
+        background: none;
+        left: 9.5%;
+        top: 110%;
+    }
+
+
+#home /* About underline */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 66px;
+        height: 5px;
+        left: 0;
+        top: 0;
+    }
+
+#skills /* Skills underline */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 77px;
+        height: 5px;
+        left: 20%;
+        top: 0;
+    }
+
+.current2 /* JS function for underline switch */
+    {
+        height: 5px;
+        width: 77px;
+        left: 0;
+        background: #620a0a;
+        opacity: 60%;
+    }
+
+#cv /* CV underline */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 100px;
+        height: 5px;
+        left: 43%;
+        top: 0;
+    }
+
+#projects /* Projects underline */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 90px;
+        height: 5px;
+        left: 73%;
+        top: 0;
+    }
+
+#navbar li /* shift navigation bar headings to the left in a row */
+    {
+        float: left;
+        border-right: 10px solid transparent;
+    }
+
+#navbar ul /* remove all default styling from navigation  bar headings */
+    {
+        list-style-type: None;
+    }
+
+.sep_line:after /* line between navigation bar headings */
+    {
+        content: "\007C";
+        margin: 0;
+        padding: 0;
+        font-size: 30px;
+        color: #FFFFFF;
+        border-left: 10px solid transparent;
+        opacity: 100%;
+    }
+
+#navbar li a:hover /* bold text on mouse hover */
+    {
+        font-weight: bold;
+    }
+
+.current /* JS function for bold text */
+    {
+        font-weight: bold;
+    }
+
+/* dark-light mode contents */
+#dark_light_mode /* main container for dark-light mode */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 90px;
+        height: 25px;
+        background: none;
+        right: 1.5%;
+        top: 18%;
+    }
+
+#dark_light_symbol
+    {
+        display: none;
+    }
+
+#dark_light_symbol_2
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 25px;
+        height: 25px;
+        background: none;
+        left: 0;
+        top: 0;
+
+    }
+
+.switch   /* The switch - the box around the slider */
+    {
+        position: relative;
+        display: inline-block;
+        width: 53px;
+        height: 25px;
+        right: -42%;
+    }
+
+.switch input  /* Hide default HTML checkbox */
+    {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+.slider   /* The slider */
+    {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #620a0a;
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 34px;
+    }
+
+.slider:before /* slider knob */
+    {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        left: 4px;
+        bottom: 3px;
+        background-color: #fefae7;
+        -webkit-transition: .4s;
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+input:checked + .slider:before /* new check mark effect */
+    {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+/* contacts links contents */
+#top_contacts /* main container for header contacts */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 240px;
+        height: 35px;
+        background: none;
+        right: 1%;
+        top: 62%;
+    }
+
+#top_contacts_text /* header contacts text */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 110px;
+        height: 25px;
+        background: none;
+        left: 0;
+        top: 15%;
+    }
+
+#link_0_top
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 26px;
+        height: 22px;
+        background: none;
+        right: 36%;
+        top: 16%;
+    }
+
+#link_0_top:hover
+    {
+        width: 33px;
+        height: 27px;
+        right: 37%;
+        top: 12%;
+        transition: 0.2s
+    }
+
+/* header contacts icon and link container */
+#link_1_top
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 32px;
+        height: 26px;
+        background: none;
+        right: 19%;
+        top: 12%;
+    }
+
+#link_1_top:hover
+    {
+        width: 40px;
+        height: 35px;
+        right: 19%;
+        top: 4%;
+        transition: 0.2s
+    }
+
+#gmail_logo_top
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 37px;
+        height: 23px;
+        background: none;
+        right: 2%;
+        top: 13%;
+    }
+
+#gmail_logo_top:hover
+    {
+        width: 43px;
+        height: 30px;
+        right: 3%;
+        top: 7%;
+        transition: 0.2s
+    }
+
+/* footer contents */
+#footer /* main container for header */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 110px;
+        left: 0;
+        background: #ffd2d1;
+        /* For top position search CSS files for separate pages*/
+    }
+
+#contact /* footer contacts container */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 17%;
+        height: 70%;
+        background: none;
+        right: 10%;
+        top: 5%;
+        border-left: 0.1vw solid;
+        border-color: #030000;
+    }
+
+#contact_text /* footer contacts text */
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 120px;
+        height: 20px;
+        background: none;
+        left: 3%;
+        top: 0;
+    }
+
+/* footer contacts links and icons */
+#linked_logo
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 27px;
+        height: 22px;
+        background: none;
+        left: 3%;
+        top: 28%;
+    }
+
+#link_1
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 150px;
+        height: 20px;
+        background: none;
+        left: 43px;
+        top: 32%;
+    }
+
+#gmail_logo
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 34px;
+        height: 20px;
+        background: none;
+        left: 2.5%;
+        top: 70%;
+    }
+
+#link_2
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 215px;
+        height: 20px;
+        background: none;
+        left: 43px;
+        top: 70%;
+    }
+
+#github_logo
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 35px;
+        height: 35px;
+        background: none;
+        left: 75%;
+        top: 20%;
+    }
+
+#link_3
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 150px;
+        height: 30px;
+        background: none;
+        left: 87%;
+        top: 32%;
+    }
+
+/* copyright container */
+#copyright
+    {
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        width: 850px;
+        height: 20px;
+        background: none;
+        left: 0.5%;
+        top: 80%;
+    }
+
+/* styling overrides for screen over 3840px (4K) */
+@media only screen and (min-width: 3840px){
+
+#container
+    {
+        height: 3775px;
+    }
+
+#navbar
+    {
+          width: 500px;
+          left: 45%;
+    }
+
+#navline
+    {
+        width: 360px;
+        left: 7.5%;
+    }
+
+#home
+    {
+        width: 85px;
+        left: -2.5%;
+    }
+
+#skills
+    {
+        width: 79px;
+        left: 22%;
+    }
+
+#cv
+    {
+        width: 107px;
+        left: 44%;
+    }
+
+#projects
+    {
+        width: 105px;
+        left: 74%;
+    }
+
+#link_1
+    {
+        left: 50px;
+    }
+
+#link_2
+    {
+        left: 50px;
+    }
+
+#link_3
+    {
+        left: 80.5%;
+    }
+}
+
+/* styling overrides for screen over 2560px (QHD) */
+@media only screen and (min-width: 2560px) and (max-width: 3839px){
+
+#container
+    {
+        height: 3700px;
+    }
+
+#navbar
+    {
+          width: 500px;
+          left: 43%;
+    }
+
+#navline
+    {
+        width: 348px;
+        left: 7%;
+    }
+
+#home
+    {
+        width: 85px;
+        left: -2.5%;
+    }
+
+#skills
+    {
+        width: 80px;
+        left: 23%;
+    }
+
+#cv
+    {
+        width: 102px;
+        left: 45%;
+    }
+
+#projects
+    {
+        width: 105px;
+        left: 75%;
+    }
+
+#link_3
+    {
+        left: 83%;
+    }
+
+#copyright
+    {
+        width: 860px;
+    }
+}
+
+/* styling overrides for screen under 2560px (QHD) */
+@media only screen and (max-width: 2560px){
+
+#container
+    {
+        height: 3700px;
+    }
+
+#navbar
+    {
+          width: 500px;
+          left: 43%;
+    }
+
+#navline
+    {
+        width: 348px;
+        left: 7%;
+    }
+
+#home
+    {
+        width: 85px;
+        left: -2.5%;
+    }
+
+#skills
+    {
+        width: 78px;
+        left: 23%;
+    }
+
+#cv
+    {
+        width: 102px;
+        left: 45%;
+    }
+
+#projects
+    {
+        width: 100px;
+        left: 75%;
+    }
+
+#link_3
+    {
+        left: 83%;
+    }
+
+#copyright
+    {
+        width: 860px;
+    }
+}
+
+/* styling overrides for screen under 2225px */
+@media only screen and (max-width: 2225px){
+
+#container
+    {
+        height: 3650px;
+    }
+
+#navbar
+    {
+          left: 40%;
+    }
+
+#skills
+    {
+        left: 22%;
+    }
+
+#cv
+    {
+        width: 102px;
+        left: 44.5%;
+    }
+
+#link_3
+    {
+        left: 84.5%;
+    }
+}
+
+/* styling overrides for screen under 1850px */
+@media only screen and (max-width: 1920px){
+
+#container
+    {
+        height: 3600px;
+    }
+
+#cv
+    {
+        left: 44%;
+    }
+
+#projects
+    {
+        left: 73.5%;
+    }
+
+#link_3
+    {
+        left: 86%;
+    }
+}
+
+/* styling overrides for screen under 1536px */
+@media only screen and (max-width: 1536px){
+
+#github_logo
+    {
+        left: 86.5%;
+    }
+
+#link_3
+    {
+        left: 100%;
+    }
+}
+
+/* styling overrides for screen under 1366px */
+@media only screen and (max-width: 1366px){
+
+#navbar
+    {
+          left: 37%;
+    }
+
+#skills
+    {
+        width: 73px;
+    }
+
+#cv
+    {
+        width: 100px;
+        left: 43.5%;
+    }
+
+#projects
+    {
+        width: 95px;
+        left: 72.5%;
+    }
+
+#contact
+    {
+        width: 20%;
+        right: 12%;
+        top: 5%;
+    }
+
+#link_2
+    {
+        width: 100px;
+        left: 44px;
+    }
+}
+
+/* styling overrides for screen under 1100px */
+@media only screen and (max-width: 1100px){
+
+#container
+    {
+        height: 5100px;
+    }
+
+#header
+    {
+        height: 150px;
+    }
+
+#navbar
+    {
+        left: 33%;
+        top: 55%;
+    }
+
+#navline
+    {
+        top: 105%;
+    }
+
+#home
+    {
+        width: 83px;
+    }
+
+#cv
+    {
+        width: 99px;
+        left: 43%;
+    }
+
+#projects
+    {
+        width: 97px;
+        left: 71.5%;
+    }
+
+#top_contacts
+    {
+        top: 42%;
+        right: 0;
+    }
+
+#footer
+    {
+        height: 100px;
+        /* For top position search CSS files for separate pages*/
+    }
+
+#contact
+    {
+        width: 25%;
+        right: 15%;
+    }
+
+#copyright
+    {
+        width: 750px;
+    }
+}
+
+/* styling overrides for screen under 830px */
+@media only screen and (max-width: 830px){
+
+#title
+    {
+        left: 0;
+        top: 10%;
+        width: 400px;
+    }
+
+#navbar
+    {
+        width: 390px;
+    }
+
+#home
+    {
+        left: 0;
+    }
+
+#skills
+    {
+        left: 23.5%;
+    }
+
+#cv
+    {
+        left: 45%;
+    }
+
+#projects
+    {
+        left: 73.5%;
+    }
+
+#footer
+    {
+        height: 120px;
+        /* For top position search CSS files for separate pages*/
+    }
+
+#copyright
+    {
+        top: 70%;
+        width: 500px;
+    }
+
+#contact
+    {
+        height: 60%;
+        left: 2%;
+    }
+}
+
+/* styling overrides for screen under 620px */
+@media only screen and (max-width: 620px) {
+
+#container
+    {
+        height: 5100px;
+    }
+
+#title
+    {
+        left: 8%;
+    }
+
+#top_contacts
+    {
+        left: 28%;
+    }
+
+#navbar
+    {
+        left: 10%;
+        top: 58%;
+    }
+
+#navline
+    {
+        top: 100%;
+    }
+
+#home
+    {
+        left: 0;
+        width: 82px;
+    }
+
+#skills
+    {
+        width: 72px;
+        left: 23.5%;
+    }
+
+#cv
+    {
+        width: 97px;
+        left: 44.5%;
+    }
+
+#projects
+    {
+        width: 95px;
+        left: 72.5%;
+    }
+
+#dark_light_mode
+    {
+        display: none;
+    }
+
+#contact
+    {
+        width: 55%;
+        height: 60%;
+        left: 2%;
+    }
+
+#link_3
+    {
+        left: 100%;
+    }
+
+#copyright
+    {
+        width: 450px;
+    }
+}
